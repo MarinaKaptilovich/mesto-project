@@ -1,17 +1,13 @@
 .profile__info {
-    max-width: 336px;
-    display: grid;
-    grid-template-columns: minmax(min-content,max-content) minmax(min-content,max-content);
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     box-sizing: border-box;
-    margin: 0 244px 0 30px;
-    padding: 0
 }
 
 @media screen and (max-width: 900px) {
     .profile__info {
+        align-items: center;
         max-width: 282px;
-        margin: 22px 19px 36px;
-        gap: 10px;
     }    
 }

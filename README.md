@@ -6,9 +6,9 @@
 Проект реализован с помощью HTML и CSS.
 
 Используемые технологии:
-* БЭМ
-* lexbox
+* Методолгия БЭМ
+* Flexbox
 * Grid-layout
-* Адаптивная и отзывчивая верстка
+* Адаптивная верстка
 
 Ссылка на проект [Mesto](https://marinakaptilovich.github.io/mesto-project/ "Mesto")

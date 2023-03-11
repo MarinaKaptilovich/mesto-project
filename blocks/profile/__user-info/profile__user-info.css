@@ -1,0 +1,17 @@
+.profile__user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+    .profile__user-info {
+      margin-left: 25px;
+      margin-top: 26px;
+      justify-content: center;
+      max-width: 282px;
+    }
+  }
