@@ -1,0 +1,12 @@
+.element__like-button_disabled {
+    border: none;
+    width: 22px;
+    height: 19px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.element__like-button_disabled:hover {
+    opacity: 0.6;
+    transition: 1s linear;
+}

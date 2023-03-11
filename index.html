@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
+</head>
+<body class="body">
+  <div class="page">
+
+    <header class="header">
+      <img class="header__logo" src="./images/Header__logo.png" alt="Логотип проекта Mesto">
+    </header>
+
+    <main class="content">
+
+      <section class="profile">
+        <img class="profile__avatar" src="./images/Profile__avatar.jpg" alt="Аватар профиля">
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button type="button" class="profile__edit-button"></button>
+          <p class="profile__description">Исследователь океана</p>
+        </div>
+        <button type="button" class="profile__add-button"></button>
+      </section>     
+
+      <section class="elements">
+        <div class="element">
+          <img class="element__image" src="./images/karachaevsk.jpg" alt="Фотография пользователя">
+          <div class="element__info">
+            <h2 class="element__discription">Карачаевск</h2>
+            <button type="button" class="element__like-button element__like-button_disabled"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="./images/elbrus.jpg" alt="Фотография пользователя">
+          <div class="element__info">
+            <h2 class="element__discription">Гора Эльбрус</h2>
+            <button type="button" class="element__like-button element__like-button_disabled"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="./images/dombay.jpg" alt="Фотография пользователя">
+          <div class="element__info">
+            <h2 class="element__discription">Домбай</h2>
+            <button type="button" class="element__like-button element__like-button_disabled"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="./images/elbrus.jpg" alt="Фотография пользователя">
+          <div class="element__info">
+            <h2 class="element__discription">Гора Эльбрус</h2>
+            <button type="button" class="element__like-button element__like-button_disabled"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="./images/dombay.jpg" alt="Фотография пользователя">
+          <div class="element__info">
+            <h2 class="element__discription">Домбай</h2>
+            <button type="button" class="element__like-button element__like-button_disabled"></button>
+          </div>
+        </div>
+
+        <div class="element">
+          <img class="element__image" src="./images/karachaevsk.jpg" alt="Фотография пользователя">
+          <div class="element__info">
+            <h2 class="element__discription">Карачаево-Черкессия</h2>
+            <button type="button" class="element__like-button element__like-button_disabled"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer__info">© 2023 Mesto Russia</h2>     
+    </footer>
+
+    <div class="popup popup_opened">
+      <div class="popup__container">
+        <form class="popup__form">
+          <button type="button" class="popup__close-button"></button>
+          <h2 class="popup__heading">Редактировать профиль</h2>
+          <fieldset class="popup__input-container">
+            <label for="heading" class="popup__label"></label>
+            <input type="text" class="popup__item popup__item_el_heading" id="heading" name="heading" placeholder="Введите имя" required>
+            <label for="subheading" class="popup__label"></label>
+            <input type="text" class="popup__item popup__item_el_subheading" id="subheading" name="subheading" placeholder="Расскажите о себе" required>
+            <button type="submit" class="popup__save-button">Сохранить</button>
+          </fieldset>                    
+        </form>        
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
